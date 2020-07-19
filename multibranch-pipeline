@@ -1,5 +1,5 @@
 node {
-   def mvnHome
+   def mvnHome  //commit on child2 branch
    stage('getscm') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/chetanshell/devopskrishna.git'
